@@ -1,0 +1,119 @@
+/* Set background color and image */
+body {
+  background-color: #00addb;
+  background-image: url('https://www.transparenttextures.com/patterns/bubbles.png');
+}
+
+/* Style for the page title */
+nav {
+  background-color: #004566;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for links */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* Style for the button */
+button {
+  background-color: #004566;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00678f;
+}
+
+/* Style for the card container */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #666;
+}
+
+/* Style for the card title */
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #004566;
+}
+
+/* Style for form elements */
+label {
+  font-weight: bold;
+  color: #004566;
+}
+
+input[type="email"],
+input[type="password"],
+select {
+  border-radius: 5px;
+  border: none;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #0077be;
+}
+
+/* Style for checkboxes and radio buttons */
+.form-check-label {
+  color: #004566;
+}
+
+/* Style for submit button */
+#formSubmit {
+  background-color: #004566;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formSubmit:hover {
+  background-color: #00678f;
+}
+
+/* Style for clear button */
+#formClear {
+  background-color: #fff;
+  color: #004566;
+  border: 1px solid #004566;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formClear:hover {
+  background-color: #004566;
+  color: #fff;
+}
+
+/* Style for error message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
